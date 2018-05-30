@@ -77,7 +77,6 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     audio.r_submix.default \
     libaudio-resampler \
-    libshim_adsp \
     libtinycompress \
     audiod
 
@@ -121,8 +120,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0_vendor \
-    libshim_camera_hal \
-    libshims_camera
+    libshim_camera_hal
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera/msm8953_mot_potter_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8953_mot_potter_camera.xml \
@@ -210,9 +208,7 @@ PRODUCT_PACKAGES += \
     libgnsspps \
     android.hardware.gnss@1.0-impl-qti \
     android.hardware.gnss@1.0-impl \
-    android.hardware.gnss@1.0-service-qti \
-    libqsap_sdk \
-    libqsap_shim
+    android.hardware.gnss@1.0-service-qti
 
 # health
 PRODUCT_PACKAGES += \
@@ -380,10 +376,6 @@ PRODUCT_PACKAGES += \
     sensors.rp \
     sensors.tof \
     sensors.tof.vl53l0
-
-# Shims
-PRODUCT_PACKAGES += \
-    libqsap_shim
 
 # Thermal
 PRODUCT_COPY_FILES += \
