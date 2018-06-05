@@ -17,17 +17,6 @@ ifneq ($(filter potter,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.motorola.cameraone
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := MotoCamera/com.motorola.cameraone.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_DEX_PREOPT := false
-LOCAL_OVERRIDES_PACKAGES := Camera2
-include $(BUILD_PREBUILT)
-
 FIRMWARE_ADSP_IMAGES := \
     adsp.b00 adsp.b01 adsp.b02 adsp.b03 adsp.b04 adsp.b05 adsp.b06 \
     adsp.b07 adsp.b08 adsp.b09 adsp.b10 adsp.b11 adsp.b12 adsp.b13 \
