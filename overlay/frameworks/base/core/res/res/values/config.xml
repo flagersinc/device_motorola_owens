@@ -456,4 +456,7 @@
     <!-- Whether device has turbo power charging support -->
     <bool name="config_hasTurboPowerCharger">true</bool>
 
+    <!-- Whether device supports gestures on fingerprint sensor -->
+    <bool name="config_supportsGesturesOnFingerprintSensor">true</bool>
+
 </resources>
