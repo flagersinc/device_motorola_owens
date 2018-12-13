@@ -1,3 +1,4 @@
 allow untrusted_app_27 proc_zoneinfo:file { read getattr open };
 allow untrusted_app_27 proc_vmstat:file open;
 
+allow untrusted_app_27 vendor_camera_prop:file read;
