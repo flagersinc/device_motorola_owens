@@ -25,7 +25,7 @@ $(call inherit-product, device/motorola/potter/device.mk)
 # Inherit some common PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
