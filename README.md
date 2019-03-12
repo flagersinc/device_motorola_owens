@@ -1,7 +1,7 @@
-Device Tree for Moto G5 Plus (potter)
+Device Tree for Moto E4 Plus (owens)
 ===========================================
 
-The Motorola Moto G5 Plus (codenamed _"potter"_) is a mid-range smartphone from Motorola mobility.
+The Motorola Moto E4 Plus (codenamed _"owens"_) is a mid-range smartphone from Motorola mobility.
 It was announced on February 2017.
 
 Basic   | Spec Sheet
